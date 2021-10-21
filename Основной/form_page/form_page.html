@@ -1,0 +1,65 @@
+s<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Заказ</title>
+	<link rel="stylesheet" href="form_page.css">
+	<meta name="description" content="Заказать быструю доставку по Москве.">
+	<link rel="icon" href="img/logo3.png" type="image/x-icon">
+</head>
+<body>
+	<header class="header">
+	<div class="container">
+		<div class="nav">
+			<a href="../index.html"><img src="../img/logo3.png" alt=""></a>
+			<ul class="menu">
+				<li>
+					<a href="../catalog_page/catalog_page.html" class="catalog__page">Товары</a>
+				</li>
+				<li>
+					<a href="../promotions_page/promotions_page.html">Акции</a>
+				</li>
+				<li>
+					<a href="../video_page/video_page.html">О нас</a>
+				</li>
+				<li>
+					<a href="tel:+79164518400" class="telefon">+7 (916) 451-84-00</a>
+				</li>
+			</ul>
+			
+			<button class="burger__open">
+				МЕНЮ
+			</button>	
+
+			<a href="tel:+79164518400" class="tel">+7 (916) 451-84-00</a>
+	</div>
+</header>
+
+
+<div class="container">
+	<div class="form">
+		<form method="POST" class="form__body">
+			<h1 class="form__title">Заказать звонок</h1>
+			<div class="form__item">
+				<label class="form__label">Имя*:</label>
+				<input type="text" name="name" class="form__input" placeholder="Например, Иван">
+			</div>
+
+			<div class="form__item">
+				<label class="form__label">Телефон*:</label>
+				<input type="text" name="phone" class="form__input" placeholder="+7 (999) 999 99 99">
+			</div>
+
+			<button type="submit" class="form_button">Отправить</button>
+
+		</form>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="form_page.js"></script>
+    
+
+</body>
+</html>
